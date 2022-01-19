@@ -1,6 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+
+import HeaderComponent from './header';
 
 export default function Home() {
   return (
@@ -14,13 +15,19 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
+      <HeaderComponent></HeaderComponent>
+
+      <h1 className={styles.title}>
+        No Optimization
+        <br />
+        Without Analytics
+      </h1>
+
+      <p className={styles.description}>
+        Reactrix is an analytical prototyping tool for React
+      </p>
+
       <main className={styles.main}>
-        <h1 className={styles.title}>No Optimization Without Analytics</h1>
-
-        <p className={styles.description}>
-          Reactrix is an analytical prototyping tool for React
-        </p>
-
         <div className={styles.grid}>
           <a
             href='https://github.com/oslabs-beta/Reactrix'
@@ -74,10 +81,7 @@ export default function Home() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          Start Prototyping{' '}
-          <span className={styles.logo}>
-            {/* <Image src='/vercel.svg' alt='Vercel Logo' width={72} height={16} /> */}
-          </span>
+          Start Prototyping <span className={styles.logo}></span>
         </a>
       </footer>
     </div>
