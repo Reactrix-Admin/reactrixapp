@@ -12,7 +12,13 @@ export default function Headline() {
       </h1>
       <div className={styles.logo}></div>
       <p className={styles.description}>
-        <Image src='/splash.png' alt='Splash' width={800} height={509} />
+        <Image
+          src='/splash.png'
+          alt='Splash'
+          width={800}
+          height={509}
+          layout='intrinsic'
+        />
       </p>
       <a
         href='https://github.com/oslabs-beta/Reactrix'
