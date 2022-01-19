@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
 import HeaderComponent from './header';
+import FooterComponent from './footer';
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <HeaderComponent></HeaderComponent>
+      <HeaderComponent />
 
       <h1 className={styles.title}>
         No Optimization
@@ -27,63 +28,51 @@ export default function Home() {
         Reactrix is an analytical prototyping tool for React
       </p>
 
+      <a
+        href='https://github.com/oslabs-beta/Reactrix'
+        target='_blank'
+        rel='noopener noreferrer'
+        className={styles.start}
+      >
+        <h2>Start Prototyping &#8599;</h2>
+      </a>
+
       <main className={styles.main}>
         <div className={styles.grid}>
-          <a
-            href='https://github.com/oslabs-beta/Reactrix'
-            className={styles.card}
-          >
-            <h2>Features &rarr;</h2>
+          <div className={styles.card}>
+            <h2>Features &#8600;</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-          </a>
+          </div>
 
-          <a
-            href='https://github.com/oslabs-beta/Reactrix'
-            className={styles.card}
-          >
-            <h2>Components &rarr;</h2>
+          <div className={styles.card}>
+            <h2>Components &#8600;</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-          </a>
+          </div>
 
-          <a
-            href='https://github.com/oslabs-beta/Reactrix'
-            className={styles.card}
-          >
-            <h2>Hierarchy Tree &rarr;</h2>
+          <div className={styles.card}>
+            <h2>Hierarchy Tree &#8600;</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-          </a>
+          </div>
 
-          <a
-            href='https://github.com/oslabs-beta/Reactrix'
-            className={styles.card}
-          >
-            <h2>Snapshots &rarr;</h2>
+          <div className={styles.card}>
+            <h2>Snapshots &#8600;</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-          </a>
+          </div>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href='https://github.com/oslabs-beta/Reactrix'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Start Prototyping <span className={styles.logo}></span>
-        </a>
-      </footer>
+      <FooterComponent />
     </div>
   );
 }
