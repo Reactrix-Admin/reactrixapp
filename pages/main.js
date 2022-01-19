@@ -8,11 +8,11 @@ export default function Main() {
       <div className={styles.grid}>
         <h1>What is Reactrix?</h1>
         <div className={styles.card}>
-          <p>
-            Reactrix is an analytical prototyping tool for React developers to
-            quickly create component trees and compare performance metrics based
-            on snapshots.
-          </p>
+          <h4>
+            Reactrix is an analytical prototyping tool built for React
+            developers. Quickly create component trees and easily compare
+            performance metrics based on snapshots.
+          </h4>
         </div>
         <h1>Features</h1>
         <div className={styles.card}>
@@ -23,10 +23,13 @@ export default function Main() {
             parent/sibling/children relationships.
           </p>
           <h3>Component Library 📕</h3>
-          <p>Create reusable components and store them across sessions.</p>
-          <h3>Preview/Demo 🪄</h3>
           <p>
-            Render your application into a demo view with full interactions.
+            Create and save reusable components and store them across sessions.
+          </p>
+          <h3>Preview / Demo 🪄</h3>
+          <p>
+            Render your component tree as a preview with full interactions based
+            on details.
           </p>
           <h3>Profiling 🔎</h3>
           <p>
@@ -44,24 +47,23 @@ export default function Main() {
             snapshots.
           </p>
           <h3>OAuth 🔑</h3>
-          <p>
-            Create an account and authenticate yourself through GitHub OAuth.
-          </p>
+          <p>Create an account and authenticate via GitHub OAuth.</p>
         </div>
         <h1 className={styles.whiteText}>Getting Started & Contributing</h1>
         <div className={styles.card}>
-          <p>
-            Head on over to our{' '}
+          <h3>
+            {' '}
+            Head on over to{' '}
             <a href='https://github.com/oslabs-beta/Reactrix'>{'GitHub'}</a> and
-            clone the repo.
-            <p>
-              {' '}
-              Reactrix is an open-source product that is always updating. If you
-              are interested in contributing to the product, fork the repo and
-              work on a branch to tackle a feature. Be clear on what the branch
-              works towards through descriptive commits and push the code to
-              your branch. Finally, create a pull request!
-            </p>
+            clone the Reactrix repository.
+          </h3>
+          <p>
+            {' '}
+            Reactrix is an open-source product that is always updating. If you
+            are interested in contributing to the product, fork the repo and
+            work on a branch to tackle a feature. Be clear on what the branch
+            works towards through descriptive commits and push the code to your
+            branch. Finally, create a pull request!
           </p>
         </div>
       </div>
