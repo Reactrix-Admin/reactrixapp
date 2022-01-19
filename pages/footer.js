@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 
 function FooterComponent() {
   const contributors = {
-    'Kevin H. Chung': [
+    'Kevin Chung': [
       'https://github.com/kevhjc/',
       'https://www.linkedin.com/in/kevc/',
     ],
@@ -35,7 +35,7 @@ function FooterComponent() {
         {Object.entries(contributors).map(([name, links], index) => {
           return (
             <div key={index}>
-              <a href={links[0]} key={index}>
+              <a href={links[0]}>
                 <Image
                   src='/github.svg'
                   alt='GitHub Logo'
@@ -43,7 +43,7 @@ function FooterComponent() {
                   height={14}
                 />
               </a>
-              <a href={links[1]} key={index}>
+              <a href={links[1]}>
                 <Image
                   src='/linkedin.svg'
                   alt='LinkedIn Logo'
@@ -51,7 +51,7 @@ function FooterComponent() {
                   height={14}
                 />
               </a>
-              <span key={index}>{name}</span>
+              <span>{name}</span>
             </div>
           );
         })}
