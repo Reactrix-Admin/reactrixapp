@@ -16,7 +16,7 @@
 }
 
 .header {
-  width: 60%;
+  width: 90%;
   height: 75px;
   border-bottom: 1px solid #eaeaea;
   display: flex;
@@ -67,8 +67,6 @@
   line-height: 1.5;
   font-size: 1.15rem;
   text-align: center;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .start {
@@ -106,7 +104,7 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 675px;
   margin-top: 3rem;
 }
 
@@ -135,6 +133,12 @@
   font-size: 1.5rem;
 }
 
+.card h4 {
+  margin: 1rem 0 1rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 .whiteText {
   color: #ffffff;
   text-align: center;
@@ -152,6 +156,8 @@
 .card p {
   font-size: 1rem;
   line-height: 1.5;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .logo {
@@ -175,7 +181,7 @@
 }
 
 .footer {
-  width: 60%;
+  width: 90%;
   height: 175px;
   padding-top: 15px;
   margin: 5rem 0 2rem 0;
