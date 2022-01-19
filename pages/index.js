@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
-import HeaderComponent from './header';
-import Headline from './headline';
+import HeaderComponent from './components/header';
+import Headline from './components/headline';
 import Main from './main';
-import FooterComponent from './footer';
+import FooterComponent from './components/footer';
 
 export default function Home() {
   return (

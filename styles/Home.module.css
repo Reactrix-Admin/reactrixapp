@@ -16,7 +16,7 @@
 }
 
 .header {
-  width: 75%;
+  width: 60%;
   height: 75px;
   border-bottom: 1px solid #eaeaea;
   display: flex;
@@ -24,6 +24,14 @@
   align-items: center;
   font-size: 1.25rem;
   font-weight: bold;
+}
+
+.title {
+  margin-top: 3rem;
+  margin-bottom: -1.5rem;
+  line-height: 1.15;
+  font-size: 4rem;
+  text-align: center;
 }
 
 .title a {
@@ -35,17 +43,6 @@
 .title a:focus,
 .title a:active {
   text-decoration: underline;
-}
-
-.title {
-  margin-top: 1rem;
-  line-height: 1.15;
-  font-size: 3rem;
-}
-
-.title {
-  padding: 2rem;
-  text-align: center;
 }
 
 .gradient {
@@ -70,6 +67,8 @@
   line-height: 1.5;
   font-size: 1.15rem;
   text-align: center;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .start {
@@ -104,8 +103,8 @@
 
 .grid {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   max-width: 800px;
   margin-top: 3rem;
@@ -121,7 +120,7 @@
   border: 1px solid #eaeaea;
   border-radius: 5px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 80%;
+  width: 85%;
   box-shadow: var(--shadow-elevation-medium);
 }
 
@@ -134,6 +133,19 @@
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+}
+
+.whiteText {
+  color: #ffffff;
+}
+
+.card a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
 }
 
 .card p {
@@ -162,12 +174,12 @@
 }
 
 .footer {
-  width: 75%;
+  width: 60%;
   height: 175px;
   padding-top: 15px;
   margin: 5rem 0 2rem 0;
   color: #ffffff;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #696969;
   display: flex;
   justify-content: space-between;
   align-items: right;

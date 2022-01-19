@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import styles from '../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 
 export default function Headline() {
   return (
@@ -10,8 +10,9 @@ export default function Headline() {
         <br />
         Without Analytics
       </h1>
+      <div className={styles.logo}></div>
       <p className={styles.description}>
-        Reactrix is an analytical prototyping tool for React
+        <Image src='/splash.png' alt='Splash' width={800} height={509} />
       </p>
       <a
         href='https://github.com/oslabs-beta/Reactrix'
