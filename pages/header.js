@@ -9,7 +9,7 @@ function HeaderComponent() {
         Reactrix{' '}
       </a>
       <div className={styles.social}>
-        <span className={styles.icon}>
+        {/* <span className={styles.icon}>
           <a href='/' target='_blank' rel='noopener noreferrer'>
             <Image
               src='/linkedin.svg'
@@ -18,7 +18,7 @@ function HeaderComponent() {
               height={24}
             />
           </a>
-        </span>
+        </span> */}
         <span className={styles.icon}>
           <a
             href='https://github.com/oslabs-beta/Reactrix'
