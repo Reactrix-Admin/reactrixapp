@@ -19,7 +19,7 @@ export default function Home() {
       <HeaderComponent />
 
       <h1 className={styles.title}>
-        No Optimization
+        No <span className={styles.gradient}>Optimization</span>
         <br />
         Without Analytics
       </h1>
@@ -34,13 +34,14 @@ export default function Home() {
         rel='noopener noreferrer'
         className={styles.start}
       >
-        <h2>Start Prototyping &#8599;</h2>
+        <h3>Start Prototyping &#8599;</h3>
       </a>
 
       <main className={styles.main}>
         <div className={styles.grid}>
+          <h1 className={styles.subtitle}>Features</h1>
           <div className={styles.card}>
-            <h2>Features &#8600;</h2>
+            <h3>Features &#8600;</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -48,7 +49,7 @@ export default function Home() {
           </div>
 
           <div className={styles.card}>
-            <h2>Components &#8600;</h2>
+            <h3>Components &#8600;</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -56,7 +57,7 @@ export default function Home() {
           </div>
 
           <div className={styles.card}>
-            <h2>Hierarchy Tree &#8600;</h2>
+            <h3>Hierarchy Tree &#8600;</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -64,7 +65,7 @@ export default function Home() {
           </div>
 
           <div className={styles.card}>
-            <h2>Snapshots &#8600;</h2>
+            <h3>Snapshots &#8600;</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
