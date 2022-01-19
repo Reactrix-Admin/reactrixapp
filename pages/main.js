@@ -10,8 +10,8 @@ export default function Main() {
         <div className={styles.card}>
           <p>
             Reactrix is an analytical prototyping tool for React developers to
-            quickly create component trees and compare performance metrics by
-            comparing snapshots.
+            quickly create component trees and compare performance metrics based
+            on snapshots.
           </p>
         </div>
         <h1>Features</h1>
