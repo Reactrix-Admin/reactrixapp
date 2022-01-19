@@ -3,6 +3,13 @@
 html,
 body {
   background: #ffffff;
+  background-image: linear-gradient(
+    0deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(359deg 33% 51%) 33%,
+    hsl(1deg 85% 85%) 67%,
+    hsl(0deg 0% 100%) 100%
+  );
   padding: 0;
   margin: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,

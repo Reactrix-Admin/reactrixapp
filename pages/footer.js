@@ -37,7 +37,7 @@ function FooterComponent() {
             <div key={index}>
               <a href={links[0]}>
                 <Image
-                  src='/github.svg'
+                  src='/github_light.svg'
                   alt='GitHub Logo'
                   width={14}
                   height={14}
@@ -45,7 +45,7 @@ function FooterComponent() {
               </a>
               <a href={links[1]}>
                 <Image
-                  src='/linkedin.svg'
+                  src='/linkedin_light.svg'
                   alt='LinkedIn Logo'
                   width={14}
                   height={14}
