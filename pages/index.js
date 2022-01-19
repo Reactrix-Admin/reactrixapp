@@ -1,5 +1,5 @@
 import Head from 'next/head';
-// import Image from 'next/image';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -22,7 +22,10 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href='/' className={styles.card}>
+          <a
+            href='https://github.com/oslabs-beta/Reactrix'
+            className={styles.card}
+          >
             <h2>Features &rarr;</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -30,7 +33,10 @@ export default function Home() {
             </p>
           </a>
 
-          <a href='/' className={styles.card}>
+          <a
+            href='https://github.com/oslabs-beta/Reactrix'
+            className={styles.card}
+          >
             <h2>Components &rarr;</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -38,7 +44,10 @@ export default function Home() {
             </p>
           </a>
 
-          <a href='/' className={styles.card}>
+          <a
+            href='https://github.com/oslabs-beta/Reactrix'
+            className={styles.card}
+          >
             <h2>Hierarchy Tree &rarr;</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -46,7 +55,10 @@ export default function Home() {
             </p>
           </a>
 
-          <a href='/' className={styles.card}>
+          <a
+            href='https://github.com/oslabs-beta/Reactrix'
+            className={styles.card}
+          >
             <h2>Snapshots &rarr;</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
