@@ -19,7 +19,7 @@
 }
 
 .header {
-  width: 50%;
+  width: 75%;
   height: 75px;
   border-bottom: 1px solid #eaeaea;
   display: flex;
@@ -30,7 +30,7 @@
 }
 
 .footer {
-  width: 100%;
+  width: 75%;
   height: 200px;
   margin-top: 5rem;
   border-top: 1px solid #eaeaea;
@@ -79,6 +79,7 @@
 }
 
 .start {
+  margin-top: 1.5rem;
   font-size: 0.75rem;
   text-align: center;
   text-decoration: none;
@@ -87,7 +88,7 @@
   border: 1px solid #000000;
   border-radius: 10px;
   transition: color 0.3s ease, border-color 0.3s ease;
-  width: 15%;
+  min-width: 200px;
 }
 
 .start:hover,
