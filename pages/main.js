@@ -55,7 +55,7 @@ export default function Main() {
             {' '}
             Head on over to{' '}
             <a href='https://github.com/oslabs-beta/Reactrix'>{'GitHub'}</a> and
-            clone the Reactrix repository.
+            clone the repo.
           </h3>
           <p>
             {' '}
