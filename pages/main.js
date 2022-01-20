@@ -33,12 +33,12 @@ export default function Main() {
           </p>
           <h3>Profiling 🔎</h3>
           <p>
-            Profile the intital render performance of your current component
+            Profile the initial render performance of your current component
             tree.
           </p>
           <h3>Performance Metrics 📊</h3>
           <p>
-            View the performance data of your parent and children componenets
+            View the performance data of your parent and children components
             displayed as a bar graph.
           </p>
           <h3>Snapshots 📷</h3>
